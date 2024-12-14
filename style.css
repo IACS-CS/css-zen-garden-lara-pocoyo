@@ -116,7 +116,7 @@ header {
 
 h1::after {
   content:"";
-  background-image:url(https://github.com/IACS-CS/css-zen-garden-lara-pocoyo/blob/main/buxinha.png);
+  background-image:url(https://github.com/IACS-CS/css-zen-garden-lara-pocoyo/blob/main/bruxinha.png);
   top: 122px;
   animation-name: bruxinha;
   position: absolute;
