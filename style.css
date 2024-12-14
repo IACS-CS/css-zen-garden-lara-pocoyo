@@ -18,48 +18,177 @@
 
 /* Get your own import URL from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Dancing+Script:wght@400..700&family=Nosifer&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .page-wrapper {
   /* Main font */
   font-family: Poppins, sans-serif;
 }
-h1,
-h2,
+
+
 h3,
 h4,
 h5,
 h6 {
   /* Header font */
-  font-family: "Dancing Script", cursive;
+  font-family: Creepster;
+  letter-spacing: 3px;
+}
+
+h1,
+h2 {
+  font-family: nosifer;
+  height: 30px;
+  margin-top: 73px;
+
 }
 
 /* Background */
-#css-zen-garden {
-  background: linear-gradient(45deg, #f3f3f3 0%, #c8c8c8 100%);
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
 }
+
 /* Page wrapper */
 .page-wrapper {
   box-sizing: border-box;
-  background: rgba(255, 255, 255, 0.9);
-  border: 1px solid #ccc;
+  background: black;
+  border: 1px solid;
   padding: 1em;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   max-width: 960px;
   margin: 0 auto;
+
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: white;
+}
+
+.page-wrapper {
+  /* Make space for it */
+  margin-right: 11px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+html {
+  background-color: rgba(0, 0, 0, 0.774);
+
+}
+
+
+.select {
+  display: flex;
+}
+
+.design-selection,
+.design-archives,
+.zen-resources {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-width:100%;
-height:50%;
-background-color:red;
-display:block;
-position: sticky;
-top: 0;
-z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center
 }
 
-header h1{
-  margin:0;
+h1::after {
+  content:"";
+  background-image:url(https://github.com/IACS-CS/css-zen-garden-lara-pocoyo/blob/main/buxinha.png);
+  top: 122px;
+  animation-name: bruxinha;
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+
 }
 
+@keyframes bruxinha {
+  0% {
+    transform: translateX(74%)scale(1);
+  }
 
+  100% {
+
+    transform: translateX(-810%) scale(1);
+
+  }
+
+}
+
+.summary p {
+
+  border-left: 3px solid #8fc323;
+  margin: 0px;
+  border-right: 3px solid #8fc323;
+}
+
+.summary ::after {
+  content: url(https://github.com/IACS-CS/css-zen-garden-lara-pocoyo/blob/main/aranha.png);
+  position: absolute;
+  right: -4px;
+  top: 407px;
+}
+
+/*.summary p :hover::before {
+height:1px;
+font-size: 1px;
+border-left: 2px solid #8fc323;
+border-right: 2px solid #8fc323;
+ }
+
+ .summary p :hover::after{
+  height:300px;
+  font-size: 10px;
+  border-left: 4px solid #8fc323;
+  border-right: 4px solid #8fc323;
+
+ }*/
+
+#zen-explanation::before {
+  animation-name: fantasma;
+  content:url(https://github.com/IACS-CS/css-zen-garden-lara-pocoyo/blob/main/fantasma.png);
+
+}
+
+/*
+@keyframes fantasma {
+  0% {
+    transform: translateX(74%);
+  }
+  100% {
+    transform: translateX(-810%);
+  }
+}*/
+
+@Scroll-timeline fantasma {
+  0% {
+    transform: translate(-10vw) scaleX(calc(var(--scroll-direction, 1)));
+  }
+
+  100% {
+    transform: translate(100vw) scaleX(calc(var(--scroll-direction, 1)));
+  }
+}
