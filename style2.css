@@ -1,15 +1,13 @@
 /* Required for honors students */
 /********************************** 
-* Design by:  [your name]
-* Design name:  [your design name]
+* Design by:  [Lara L]
+* Design name:  [Christmas]
 * 
-* License: [license name - e.g. MIT if you want to let others
-* use the design with attribution, or All Rights Reserved if you
-* don't want others to use the design]
+* License: [This work is licensed under CC BY-NC 4.0 ]
 * 
 * Acknowledgments/Sources:
-* - 
-* - 
+* - chatgpt
+* - Pextel
 * -
 */
 
@@ -220,7 +218,7 @@ body {
 
 body::before {
   content: '';
-  background-image: url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-image:url('snow.png'), url('snow2.png'), url('snow copy.png'), url('snow.png'), url('snow2.png'), url('snow copy.png');
   background-size: 10px;
   height: 100%;
   left: 0;
@@ -233,7 +231,7 @@ body::before {
 
 p::after {
   content: '';
-  background-image: url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-image:url('snow.png'), url('snow2.png'), url('snow copy.png');
   background-size: 10px;
   height: 100%;
   left: 0;
@@ -246,7 +244,7 @@ p::after {
 
 p::before {
   content: '';
-  background-image: url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-image: url('snow.png'), url('snow2.png'), url('snow copy.png'),url('snow.png'), url('snow2.png'), url('snow copy.png');
   background-size: 10px;
   height: 100%;
   left: 0;
@@ -257,51 +255,16 @@ p::before {
   background-repeat: no-repeat;
 }
 
+
 @keyframes snow {
   0% {
-    background-position: -500px -500px, 150px -200px, 500px -300px;
+    background-position: 0vw 0vh, 0vw 0vh, 0vw 0vh, 0vw 0vh, 0vw 0vh;
   }
   50% {
-    background-position: 0px 500px, -100px 200px, 400px 300px;
+    background-position: 50vw 50vh, 20vw 40vh, -10vw 30vh, -20vw 10vh, 10vw 20vh;
   }
   100% {
-    background-position: 500px 1000px, -200px 800px, -500px 900px;
-  }
-}
-
-@-moz-keyframes snow {
-  0% {
-    background-position: -500px -500px, 150px -200px, 500px -300px;
-  }
-  50% {
-    background-position: 0px 500px, -100px 200px, 400px 300px;
-  }
-  100% {
-    background-position: 500px 1000px, -200px 800px, -500px 900px;
-  }
-}
-
-@-webkit-keyframes snow {
-  0% {
-    background-position: -500px -500px, 150px -200px, 500px -300px;
-  }
-  50% {
-    background-position: 0px 500px, -100px 200px, 400px 300px;
-  }
-  100% {
-    background-position: 500px 1000px, -200px 800px, -500px 900px;
-  }
-}
-
-@-ms-keyframes snow {
-  0% {
-    background-position: -500px -500px, 150px -200px, 500px -300px;
-  }
-  50% {
-    background-position: 0px 500px, -100px 200px, 400px 300px;
-  }
-  100% {
-    background-position: 500px 1000px, -200px 800px, -500px 900px;
+    background-position: 100vw 100vh, 40vw 80vh, -20vw 60vh, -40vw 30vh, 20vw 50vh;
   }
 }
 
@@ -563,86 +526,58 @@ body {
 }
 
 
-body::before{
-content:'';
-background-image: url('snow.png'),url(/snow2.png),url(/snow\ copy.png);
-background-size: 10px;
- height:100%;
- left: 0;
- position:absolute;
- top: 0;
- width: 100%;
- -webkit-animation: snow 10s linear infinite;
- -moz-animation: snow 10s linear infinite;
- -ms-animation: snow 10s linear infinite;
- animation: snow 10s linear infinite;
- background-repeat:no-repeat;
+body::before {
+  content: '';
+  background-image:url('snow.png'), url('snow2.png'), url('snow copy.png'), url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-size: 10px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  animation: snow 10s linear infinite;
+  background-repeat: no-repeat;
 }
 
-p::after{
-content:'';
-background-image: url('snow.png'),url(/snow2.png),url(/snow\ copy.png);
-background-size: 10px;
- height:100%;
- left: 0;
- position: absolute;
- top: 0;
- width: 100%;
- -webkit-animation: snow 10s linear infinite;
- -moz-animation: snow 10s linear infinite;
- -ms-animation: snow 10s linear infinite;
- animation: snow 10s linear infinite;
- background-repeat:no-repeat;
+p::after {
+  content: '';
+  background-image:url('snow.png'), url('snow2.png'), url('snow copy.png'), url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-size: 10px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  animation: snow 10s linear infinite;
+  background-repeat: no-repeat;
 }
-
 
 p::before {
-content:'';
-background-image: url('snow.png'),url(/snow2.png),url(/snow\ copy.png);
-background-size: 10px;
- height:100%;
- left: 0;
- position:absolute;
- top: 0;
- width: 100%;
- -webkit-animation: snow 10s linear infinite;
- -moz-animation: snow 10s linear infinite;
- -ms-animation: snow 10s linear infinite;
- animation: snow 10s linear infinite;
- background-repeat:no-repeat;
+  content: '';
+  background-image: url('snow.png'), url('snow2.png'), url('snow copy.png'),url('snow.png'), url('snow2.png'), url('snow copy.png');
+  background-size: 10px;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  animation: snow 10s linear infinite;
+  background-repeat: no-repeat;
 }
 
 @keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-  
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+  0% {
+    background-position: 0vw 0vh, 0vw 0vh, 0vw 0vh, 0vw 0vh, 0vw 0vh;
+  }
+  50% {
+    background-position: 50vw 50vh, 20vw 40vh, -10vw 30vh, -20vw 10vh, 10vw 20vh;
+  }
+  100% {
+    background-position: 100vw 100vh, 40vw 80vh, -20vw 60vh, -40vw 30vh, 20vw 50vh;
+  }
 }
 
-@-moz-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
 
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-
-  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
-}
-
-@-webkit-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
-
-@-ms-keyframes snow {
-  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-
-  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
-
-  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
-}
 
 .explanation {
   content: url(/tree.png);

@@ -1,15 +1,13 @@
 /* Required for honors students */
 /********************************** 
-* Design by:  [your name]
-* Design name:  [your design name]
+* Design by:  [Lara L]
+* Design name:  [Valentine's Day]
 * 
-* License: [license name - e.g. MIT if you want to let others
-* use the design with attribution, or All Rights Reserved if you
-* don't want others to use the design]
+* License: [This work is licensed under CC BY-NC 4.0 ]
 * 
 * Acknowledgments/Sources:
-* - 
-* - 
+* - Chatgpt
+* - Pextel
 * -
 */
 
@@ -619,7 +617,7 @@ h1::before{
   width: 33px;
   height:67px;
   top:136px;
-  left: 751px;
+  left:671px;
   animation-name: heart;
   animation-duration: 5s;
   animation-iteration-count:infinite ;
@@ -633,7 +631,7 @@ h1::before{
   width: 33px;
   height:67px;
   top:136px;
-  right: 751px;
+  right: 682px;
   animation-name: heart;
   animation-duration: 5s;
   animation-iteration-count:infinite ;
@@ -652,7 +650,7 @@ h1::before{
   position: absolute;
   width: 42px;
   height: 43px;
-  right: 994px;
+  right: 948px;
 }
 .resources::after{
   content:'' ;
@@ -673,7 +671,7 @@ h1::before{
   position: absolute;
   width: 38px;
   height: 44px;
-  left: 210px;
+  left: 134px;
 } 
 
 }
